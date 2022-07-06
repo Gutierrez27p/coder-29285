@@ -1,0 +1,85 @@
+
+.bloque-nav{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+#conteiner2{
+    align-items: center;
+    height: 222px;
+    width: 420px;
+}
+
+.aseguradoras,
+.coberturas,
+.contactanos p{
+    text-align: center;
+    font-size: 30px;
+    /*color: darkred;*/ 
+}
+.carousel-item img{
+    align-items: center;
+}
+
+.carousel-item{
+    padding-top: 10px;
+    max-height: 500px;
+}
+
+.acerca-de{
+    font-size: 1rem;
+    text-align: center;
+    background-color:  rgb(247, 250, 255);
+    
+}
+
+.acerca-de-titulo{
+    font-size: 25px;
+}
+
+.acerca-de-texto{
+    padding: 5px 20px 20px 20px;
+}
+.alineacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 100px 0px 100px;
+}
+
+.card-title, 
+.card-text{
+    text-align: center;
+}
+
+.card-title, 
+.card-text{
+    font-size: calc(0.75em + 0.5vw)
+}
+
+.contactanos p,
+.btn-enviar{
+    text-align: center;
+}
+
+.contacto{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(247, 250, 255);
+    height: 80px;
+}
