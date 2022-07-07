@@ -1,0 +1,60 @@
+.aseguradoras,
+.coberturas,
+.contactanos p{
+    text-align: center;
+    font-size: 30px;
+    /*color: darkred;*/ 
+}
+
+#conteiner2{
+    width: 40%;
+}
+
+.carousel-item img{
+    align-items: center;
+}
+
+.carousel-item{
+    padding-top: 10px;
+    max-height: 500px;
+}
+
+.acerca-de{
+    font-size: 1rem;
+    text-align: center;
+    background-color:  rgb(247, 250, 255);
+}
+
+.acerca-de-titulo{
+    font-size: 25px;
+}
+
+.acerca-de-texto{
+    padding: 5px 20px 20px 20px;
+}
+.alineacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 100px 0px 100px;
+}
+
+.card-title, 
+.card-text{
+    text-align: center;
+}
+
+.card-title, 
+.card-text{
+    font-size: calc(0.75em + 0.5vw)
+}
+
+.contactanos p,
+.btn-enviar{
+    text-align: center;
+}
+
+.contacto{
+    padding-left: 20%;
+    padding-right: 20%;
+}
