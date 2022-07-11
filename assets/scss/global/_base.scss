@@ -1,9 +1,10 @@
 .aseguradoras,
 .coberturas,
 .contactanos p{
-    text-align: center;
-    font-size: 30px;
-    /*color: darkred;*/ 
+    text-align: $align-center;
+    font: $font-principal;
+    font-size: $xsmall;
+    color: $text-color;
 }
 
 #conteiner2{
@@ -11,7 +12,7 @@
 }
 
 .carousel-item img{
-    align-items: center;
+    align-items: $align-center;
 }
 
 .carousel-item{
@@ -20,9 +21,9 @@
 }
 
 .acerca-de{
-    font-size: 1rem;
-    text-align: center;
-    background-color:  rgb(247, 250, 255);
+    font-size: $xsmall;
+    text-align: $align-center;
+    background-color: $primary;
 }
 
 .acerca-de-titulo{
@@ -33,15 +34,13 @@
     padding: 5px 20px 20px 20px;
 }
 .alineacion{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include flex(none,space-around,stretch);
     padding: 0px 100px 0px 100px;
 }
 
 .card-title, 
 .card-text{
-    text-align: center;
+    text-align: $align-center;
 }
 
 .card-title, 
@@ -51,7 +50,7 @@
 
 .contactanos p,
 .btn-enviar{
-    text-align: center;
+    text-align: $align-center;
 }
 
 .contacto{
