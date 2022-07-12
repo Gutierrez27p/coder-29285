@@ -7,3 +7,19 @@
     background-color: rgb(247, 250, 255);
     height: 80px;
 }
+
+$map-color:(
+    "ro":#ff0000, "ver":#00ff00, "ama":#fbff00, "bla":#ffffff
+);
+.facebook:hover{
+    color:map-get($map-color,ro);
+}
+.instagram:hover{
+    color:map-get($map-color,ver);
+}
+.linkedin:hover{
+    color:map-get($map-color,ama);
+}
+.whatsapp:hover{
+    color:map-get($map-color,bla);
+}
